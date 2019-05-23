@@ -1,68 +1,70 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <!-- need links and stuff here. -->
     <title>Portfolio | Greg Wheeler</title>
   </head>
+  <a href="mailto:myemail@site.com?Subject=Some%20subject"><img src="myImage.jpg"/></a>
   <body>
-    <div class="wrapper">
+    <section class="wrapper">
       <!-- HEADER -->
       <header class= "header">
         <div class="logo">
           <img src="assets/logo.png" alt="Greg Wheeler Logo">
         </div>
         <nav>
-          <ul>
-            <!-- One of these is a contact link. This I want to take me down to the footer to connect via email or linked in. How can I do that? -->
-           <li><a href="index.html">Home</a></li>
+          <ul style="list-style: none;">
            <li><a href="about.html">About</a></li>
            <li><a href="project.html">Project</a></li>
           </ul>
         </nav>
       </header>
       <!-- HERO SECTION-->
-     <div class="hero">
+     <section class="Hero">
        <h1>User Experience</h1>
        <h1>Researcher</h1>
        <h5>Based in Austin, TX</h5>
        <img src="assets/portfoliohero.jpg" alt="mugshot of Greg Wheeler">
-     </div>
-     <div class="hero content">
+     </section>
+     <!-- HERO CONTENT SECTION-->
+     <section class="hero content">
        <p>Hi there! I’m Greg Wheeler.
 I focus on building solid relationships to gather real data. I use this data to create remarkable experiences.</p>
-     </div>
-     <!-- CASE STUDIES-->
-     <div class="Case Studies headline">
+     </section>
+     <!-- CASE STUDIES HEADLINE-->
+     <section class="Case Studies headline">
        <h2>Case Studies</h2>
-     </div>
-     <div class="case study 1 shell">
+     </section>
+     <!-- CASE STUDIES-->
+     <Section class="case study 1 shell">
        <div class="case study 1">
          <h3>Shelf</h3>
          <p>Easily save and organize your favorite moments in life.</p>
          <!-- How do I set up link for "view case study?" -->
          <link rel="View Case Study" href="/css/master.css">
        </div>
-     </div>
-     <div class="case study shell 2">
+     </section>
+     <section class="case study shell 2">
        <div class="case study 2">
          <h3>Drip</h3>
          <p>Change your life by forming the right habits.</p>
          <p>Coming soon!</p>
        </div>
-     </div>
-    </div>
+     </section>
+    </section>
   </body>
   <!-- FOOTER-->
   <footer>
-    <div class="footer shell">
+    <section class="footer shell">
      <h3> Let's connect!</h3>
       <!-- Social icons -->
       <div class="socials">
-		    <ul>
+		    <ul style="list-style: none;>
 			    <li>
-			      <a href="contact.html">
+            <a href="mailto:schecter33.3@gmail.com?subject=Let's connect">
 				    	<i class="far fa-envelope"></i>
-				    </a>
+            </a>
 			    </li>
           <li>
             <a href="https://www.linkedin.com/in/gregtwheeler/">
@@ -76,6 +78,6 @@ I focus on building solid relationships to gather real data. I use this data to 
           </li>
 		   	</ul>
 		 </div>
-    </div>
+    </section>
   </footer>
 </html>
