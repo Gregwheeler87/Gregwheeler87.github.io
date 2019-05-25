@@ -1,51 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
 body {
-  padding-bottom: 5rem;
+  background-color: #FFFFFF;
 }
 
-header {
-  background: url(../images/hero.jpg) center / cover;
-  height: 60vh;
-  justify-content: center;
-  text-align: center;
+p {
+font-size: 1.6rem;
 }
+
 h1 {
-  color: hsla(0, 0%, 100%, 0.9);
-  font-weight: bold;
+  font-size: 2.4rem;
 }
 
-.slogan {
-  color: hsla(0, 0%, 100%, 0.7);
-  font-weight: lighter;
-  font-size: 1.6rem;
+.container {
+  background-color: white;
+  margin: 0 auto;
+  width: 90%;
 }
 
-main {
-   max-width: 900px;
- }
-
- .project-description {
-   padding-left: 0;
- }
-
- .project img {
-   width: 100%;
- }
-
- footer.mdl-mini-footer {
-  bottom: 0;
-  padding: 0.5rem;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
+section {
+  background-color: #0a0a29;
+  color: #fff;
+  margin-top: 1rem;
+  padding: 10rem 0;
 }
 
-footer.mdl-mini-footer > ul {
-   margin: auto;
-   font-size: 2rem;
- }
+@@media screen and (min-width: 768px) {
+  .container {
+    width: 70rem;
+  }
+}
 
- @media screen and (max-width: 1024px) {
-   header.mdl-layout__header {
-     display: flex;
-   }
- }
+@@media screen and (min-width: 1000px) {
+  .container {
+    width: 98rem;
+  }
+}
