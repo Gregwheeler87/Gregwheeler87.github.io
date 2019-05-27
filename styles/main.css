@@ -12,33 +12,78 @@ body {
 
 p {
 font-size: 1.6rem;
+text-align: center;
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: 4.0rem;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3
+
+h5 {
+  font-size: 1.6rem;
 }
 
 .container {
   background-color: white;
   margin: 0 auto;
-  width: 90%;
+  text-align: center;
+  width: 100%;
 }
 
-section {
-  background-color: #0a0a29;
-  color: #fff;
-  margin-top: 1rem;
-  padding: 10rem 0;
+
+@-ms-viewport{
+  width: device-width;
 }
 
-@@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .container {
-    width: 70rem;
+    width: 100%;
   }
 }
 
-@@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px) {
   .container {
-    width: 98rem;
+    width: 100%;
   }
+}
+
+.header {
+  background-color: #1B1D29;
+  width: 100%;
+
+}
+
+.hero {
+  width: 100%:
+
+}
+
+.img {
+  background-image: url(assets/portfoliohero.jpg);
+}
+@media
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+  .img {
+    background-image: url(assets/portfoliohero.jpg);
+  }
+}
+
+.herocontent{
+  display: inline-block;
+  font-family: "Nunito";
+
+}
+
+.casestudiesheadline{
+  background-color: #000000:
+  display: inline-block;
 }
