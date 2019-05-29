@@ -1,3 +1,11 @@
+/*Questions:
+1. How do i fix the nav bar location?
+2. How do I fix the tablet version? It looks cut in half when I expand to ipad.
+3. I have the Roboto font family but im not seeing all of the roboto weight options like thin and light. It just has lighter
+4. How do I fix the socials in the footer to be spaced evenly?
+*/
+
+/*GLOBAL CSS SETTINGS*/
 * {
   box-sizing: border-box;
 }
@@ -8,11 +16,12 @@ html {
 
 body {
   background-color: #FFFFFF;
+  margin: 0;
 }
 
 p {
 font-size: 1.6rem;
-text-align: center;
+font-family: "Nunito"
 }
 
 h1 {
@@ -25,19 +34,33 @@ h2 {
   font-size: 3.2rem;
 }
 
-h3
-
 h5 {
   font-size: 1.6rem;
 }
 
 .container {
   background-color: white;
-  margin: 0 auto;
-  text-align: center;
-  width: 100%;
+  display: grid;
+  grid-gap: .25rem;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(25px, auto);
+  grid-template-areas:
+   "header"
+   "hero"
+   "hero-content"
+   "csheadline"
+   "cs1shell"
+   "cs2shell"
+   "footer"
 }
 
+section {
+margin-top: 1rem;
+padding: 10rem 0;
+}
+
+
+/*SCREEN SIZES*/
 
 @-ms-viewport{
   width: device-width;
@@ -45,45 +68,199 @@ h5 {
 
 @media screen and (min-width: 768px) {
   .container {
+    grid-template-columns: 6fr 6fr;
     width: 100%;
   }
 }
 
 @media screen and (min-width: 1000px) {
   .container {
+    grid-template-columns: 8fr 2fr 2fr;
     width: 100%;
   }
 }
 
+
+
+
+
+/*SECTIONS*/
+
 .header {
   background-color: #1B1D29;
+  grid-area: header;
+  height: 100%;
+  margin:0;
   width: 100%;
 
 }
 
+.logo {
+  margin: 0 0 0 0;
+  padding-top: 3%;
+  padding-left: 3%;
+}
+
+#navbar {
+  /* border-top: none; */
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#about {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+#project {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
 .hero {
-  width: 100%:
+  background-image: url("../assets/portfoliohero.jpg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  /* width: 100%: */
+  color: #EAEDEA;
+  font-family: "Roboto";
+  grid-area: hero;
+  height: 365px; /* You must set a specified height */
+  margin-top: 0;
+  padding-top: 5%;
+  padding-left: 5%;
 
 }
 
-.img {
-  background-image: url(assets/portfoliohero.jpg);
+#userexperience {
+font-weight: lighter;
+font-size: 2.8rem;
+margin-top: 0;
+margin-bottom: 0;
 }
-@media
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi) {
-  .img {
-    background-image: url(assets/portfoliohero.jpg);
-  }
+
+#researcher {
+font-weight: bold;
+font-size: 4.5rem;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+#location {
+font-weight: lighter;
+font-size: 1.4rem;
+margin-top: 0;
+margin-bottom: 0;
+padding-top: 2%;
 }
 
 .herocontent{
-  display: inline-block;
   font-family: "Nunito";
+  grid-area: hero-content;
+  padding: 2% 2% 2% 2%;
+  margin-top: 0;
+  text-align: center;
+}
+
+#hctext {
+  font-size: 2.0rem;
+  font-weight: lighter;
+  letter-spacing: 50%;
+  line-height: 1.45;
+}
+
+.csheadline{
+  font-size: 2.0rem;
+  font-family: "Raleway";
+  grid-area: csheadline;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.cs1shell {
+  background-color: #1B1D29;
+  border-style: solid;
+  border-color: #2CCFDC;
+  color: #EAEDEA;
+  grid-area: cs1shell;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
 
 }
 
-.casestudiesheadline{
-  background-color: #000000:
+#shelf {
+  font-size: 3.2rem;
+  font-family: "Raleway";
+  font-weight: lighter;
+  margin: 3%;
+}
+
+#viewcasestudy {
+  color: #EAEDEA;
+  font-size: 1.8rem;
+  font-family: "Raleway";
+  font-weight: lighter;
+}
+
+.cs2shell {
+  background-color: #1B1D29;
+  border-style: solid;
+  border-color: #2CCFDC;
+  color: #EAEDEA;
+  grid-area: cs2shell;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+
+}
+
+#drip {
+  font-size: 3.2rem;
+  font-family: "Raleway";
+  font-weight: lighter;
+  margin: 3%;
+}
+
+footer {
+  background-color: #1B1D29;
+  color: #EAEDEA;
+  font-size: 2.4rem;
+  font-family: "Roboto";
+  font-weight: lighter;
+  grid-area: footer;
+  text-align: center;
+}
+
+#socials {
   display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+  /* padding: 2%; */
 }
