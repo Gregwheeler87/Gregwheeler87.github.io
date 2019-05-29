@@ -73,19 +73,26 @@ padding: 10rem 0;
 
 @media screen and (min-width: 768px) {
   .container {
+    display: grid;
     grid-template-columns: 1fr;
     width: 100%;
   }
-  #case-flex {
-    display: flex;
-    flex-direction: row;
+  #casestudybox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
+
 }
 
 @media screen and (min-width: 1000px) {
   .container {
+    display: grid;
     grid-template-columns: 1fr;
     width: 100%;
+  }
+  #casestudybox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -199,10 +206,6 @@ padding-top: 2%;
   text-align: center;
 }
 
-#case-flex {
-  display: flex;
-  flex-direction: column;
-}
 
 
 .cs1shell {
