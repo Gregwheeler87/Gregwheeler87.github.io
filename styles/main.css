@@ -22,6 +22,7 @@ body {
 p {
 font-size: 1.6rem;
 font-family: 'Nunito', sans-serif;
+font-weight: 300;
 }
 
 h1 {
@@ -75,6 +76,10 @@ padding: 10rem 0;
     grid-template-columns: 1fr;
     width: 100%;
   }
+  #case-flex {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -111,6 +116,7 @@ padding: 10rem 0;
 }
 
 #navbar {
+  display: flex;
   font-size: 1.4rem;
   list-style-type: none;
   margin: 0;
@@ -154,7 +160,7 @@ margin-bottom: 0;
 
 #researcher {
 font-weight: bold;
-font-size: 4.5rem;
+font-size: 5.0rem;
 margin-top: 0;
 margin-bottom: 0;
 }
@@ -178,7 +184,7 @@ padding-top: 2%;
 #hctext {
   font-family: 'Nunito', sans-serif;
   font-size: 2.0rem;
-  font-weight: 100;
+  font-weight: 300;
   letter-spacing: 50%;
   line-height: 1.45;
 }
@@ -191,6 +197,11 @@ padding-top: 2%;
   padding-top: 0;
   padding-bottom: 0;
   text-align: center;
+}
+
+#case-flex {
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -257,6 +268,11 @@ footer {
   text-align: center;
 }
 
+#connect {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
 #socials {
   display: flex;
   justify-content: center;
@@ -266,6 +282,5 @@ footer {
 }
 
 li {
-
   padding: 2%;
 }
