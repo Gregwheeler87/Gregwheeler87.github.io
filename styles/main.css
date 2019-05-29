@@ -21,13 +21,17 @@ body {
 
 p {
 font-size: 1.6rem;
-font-family: "Nunito"
+font-family: 'Nunito', sans-serif;
 }
 
 h1 {
   font-size: 4.0rem;
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
+}
+
+h3 {
+  margin: 1;
 }
 
 h2 {
@@ -68,14 +72,14 @@ padding: 10rem 0;
 
 @media screen and (min-width: 768px) {
   .container {
-    grid-template-columns: 6fr 6fr;
+    grid-template-columns: 1fr;
     width: 100%;
   }
 }
 
 @media screen and (min-width: 1000px) {
   .container {
-    grid-template-columns: 8fr 2fr 2fr;
+    grid-template-columns: 1fr;
     width: 100%;
   }
 }
@@ -87,7 +91,9 @@ padding: 10rem 0;
 /*SECTIONS*/
 
 .header {
+  align-items: center;
   background-color: #1B1D29;
+  display: flex;
   grid-area: header;
   height: 100%;
   margin:0;
@@ -96,33 +102,29 @@ padding: 10rem 0;
 }
 
 .logo {
+  flex: 1;
   margin: 0 0 0 0;
   padding-top: 3%;
   padding-left: 3%;
+  padding-bottom: 3%;
+
 }
 
 #navbar {
-  /* border-top: none; */
-  float: right;
+  font-size: 1.4rem;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 #about {
-  float: right;
   color: white;
-  text-align: center;
   padding: 8px 12px;
-  text-decoration: none;
 }
 
 #project {
-  float: right;
   color: white;
-  text-align: center;
   padding: 8px 12px;
-  text-decoration: none;
 }
 
 .hero {
@@ -133,7 +135,7 @@ padding: 10rem 0;
   background-size: cover; /* Resize the background image to cover the entire container */
   /* width: 100%: */
   color: #EAEDEA;
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   grid-area: hero;
   height: 365px; /* You must set a specified height */
   margin-top: 0;
@@ -143,7 +145,8 @@ padding: 10rem 0;
 }
 
 #userexperience {
-font-weight: lighter;
+font-family: 'Roboto', sans-serif;
+font-weight: 100;
 font-size: 2.8rem;
 margin-top: 0;
 margin-bottom: 0;
@@ -157,7 +160,7 @@ margin-bottom: 0;
 }
 
 #location {
-font-weight: lighter;
+font-weight: 100;
 font-size: 1.4rem;
 margin-top: 0;
 margin-bottom: 0;
@@ -165,7 +168,7 @@ padding-top: 2%;
 }
 
 .herocontent{
-  font-family: "Nunito";
+  font-family: 'Nunito', sans-serif;
   grid-area: hero-content;
   padding: 2% 2% 2% 2%;
   margin-top: 0;
@@ -173,21 +176,23 @@ padding-top: 2%;
 }
 
 #hctext {
+  font-family: 'Nunito', sans-serif;
   font-size: 2.0rem;
-  font-weight: lighter;
+  font-weight: 100;
   letter-spacing: 50%;
   line-height: 1.45;
 }
 
 .csheadline{
   font-size: 2.0rem;
-  font-family: "Raleway";
+  font-family: 'Raleway', sans-serif;
   grid-area: csheadline;
   margin-top: 0;
   padding-top: 0;
   padding-bottom: 0;
   text-align: center;
 }
+
 
 .cs1shell {
   background-color: #1B1D29;
@@ -207,16 +212,16 @@ padding-top: 2%;
 
 #shelf {
   font-size: 3.2rem;
-  font-family: "Raleway";
-  font-weight: lighter;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
   margin: 3%;
 }
 
 #viewcasestudy {
   color: #EAEDEA;
   font-size: 1.8rem;
-  font-family: "Raleway";
-  font-weight: lighter;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
 }
 
 .cs2shell {
@@ -231,15 +236,14 @@ padding-top: 2%;
   padding-right: 15%;
   margin-left: 2%;
   margin-right: 2%;
-  margin-bottom: 2%;
   text-align: center;
 
 }
 
 #drip {
   font-size: 3.2rem;
-  font-family: "Raleway";
-  font-weight: lighter;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
   margin: 3%;
 }
 
@@ -247,20 +251,21 @@ footer {
   background-color: #1B1D29;
   color: #EAEDEA;
   font-size: 2.4rem;
-  font-family: "Roboto";
-  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
   grid-area: footer;
   text-align: center;
 }
 
 #socials {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 li {
-  float: left;
-  /* padding: 2%; */
+
+  padding: 2%;
 }
