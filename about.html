@@ -2,69 +2,71 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="normalize.css">
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/about.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:300|Raleway:300,500,600,700|Roboto:100,300,400,500,700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- need links and stuff here. -->
     <title>Portfolio | Greg Wheeler</title>
   </head>
   <body>
+    <div class="container">
       <!-- HEADER -->
       <header class= "header">
         <div class="logo">
           <a href="/"><img src="assets/logo.png" alt="Greg Wheeler Logo"></a>
         </div>
         <nav>
-          <ul style="list-style: none;">
-           <li><a href="about.html">About</a></li>
-           <li><a href="project.html">Project</a></li>
+          <ul id= "navbar">
+           <li><a id= "about" href="about.html">About</a></li>
+           <li><a id= "project" href="project.html">Work</a></li>
           </ul>
         </nav>
       </header>
       <!-- ABOUT ME HERO -->
-      <section class="About hero">
-        <img src="assets/aboutimg.jpg" alt="About Me Photo">
-        <div class="about hero content">
+      <section class="abouthero">
+        <img src="assets/Aboutimg.jpg" alt="About Me Photo">
+        <div class="aboutherocontent">
           <h3>A little bit about me.</h3>
         </div>
       </section>
       <!-- ABOUT ME CONTENT -->
-      <section class="about me paragraph 1">
+      <section class="paragraph1">
         <p>Growing up as a kid, I always felt compelled to ensure everyone felt like they belonged and valued. I couldn’t help it. I was the kid who would invite the entire neighborhood to play tag football at the community park. Little did I know that this drive inside of me would later be the motivation to learn how to create unforgettable experiences.</p>
       </section>
-      <section class="about me line break">
+      <section class="linebreak1">
       </section>
-      <section class="about me paragraph 2">
+      <section class="paragraph2">
         <p>Fast forward a few years, I was dating my soon to be wife. Her birthday was coming up and it was my first time to be able to celebrate with her. So I started brainstorming and thinking of all the things she loved to do and that meant something to her. This resulted in crafting a night that we would both would never forget. It was an evening full of sentimental experiences that to the random person would seem like another ordinary day. But for her, it meant the entire world. The crazy
         thing looking back is my desire to understand and value people would soon translate to the perfect career in user experience.</p>
       </section>
-      <section class="about me line break">
+      <section class="linebreak2">
       </section>
-      <section class="about me paragraph 3">
+      <section class="paragraph3">
         <p>Design for me is about truly getting to know someone and then using that to create unforgettable experiences. It’s funny that in our world today, we have never been more connected yet there are more people than ever that would say they feel disconnected. I believe great design can reconnect us because the pre-cursor to good design is good research. And good research is asking the questions that uncover what people truly care about. And if we can find that out, we can make someone’s day.</p>
       </section>
       <!-- FOOTER -->
       <footer>
-        <h3> Let's connect!</h3>
+        <h3 id='connect'> Let's connect!</h3>
           <!-- Social icons -->
-    		    <ul>
-    			    <li>
+    		    <ul id="socials">
+    			    <li id="email">
                 <a href="mailto:schecter33.3@gmail.com?subject=Let's connect">
     				    	<i class="far fa-envelope"></i>
                 </a>
     			    </li>
-              <li>
+              <li id="linkedin">
                 <a href="https://www.linkedin.com/in/gregtwheeler/">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
-              <li>
+              <li id="github">
                 <a href="https://github.com/Gregwheeler87">
                   <i class="fab fa-github"></i>
                 </a>
               </li>
     		   	</ul>
-      </footer>
-    </body>
+        </footer>
+    </div>
+  </body>
  </html>
