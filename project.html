@@ -2,37 +2,37 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="normalize.css">
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/project.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:300|Raleway:300,500,600,700|Roboto:100,300,400,500,700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- need links and stuff here. -->
     <title>Portfolio | Greg Wheeler</title>
   </head>
-  <a name="top"></a>
   <body>
+    <div class="container">
       <!-- HEADER -->
       <header class= "header">
         <div class="logo">
           <a href="/"><img src="assets/logo.png" alt="Greg Wheeler Logo"></a>
         </div>
         <nav>
-          <ul style="list-style: none;">
-           <li><a href="about.html">About</a></li>
-           <li><a href="project.html">Work</a></li>
+          <ul id= "navbar">
+           <li><a id= "about" href="about.html">About</a></li>
+           <li><a id= "project" href="project.html">Work</a></li>
           </ul>
         </nav>
       </header>
       <!-- CAST STUDY INTRO-->
-     <section class="case study intro">
+     <section class="casestudyintro">
        <h3>Case Study</h3>
        <h1>Shelf</h1>
        <p>Shelf is a cloud storage app for personal use that allows you to easily save and organize your photos, videos, and notes. </p>
        <img src="assets/case study/casestudyintro.png" alt="Image of Shelf Application">
      </section>
         <!-- Roles, Deliverables, Tools-->
-     <section class="Roles shell">
-       <section class="Design Roles">
+     <section class="rolesshell">
+       <section class="design roles">
          <h4>Design Roles</h4>
           <ul style="list-style: none;">
             <li>User Research</li>
@@ -41,7 +41,7 @@
             <li>Branding & Identity</li>
           </ul>
        </section>
-       <section class="Design Deliverables">
+       <section class="design deliverables">
          <h4>Design Deliverables</h4>
           <ul style="list-style: none;">
             <li>User Surveys</li>
@@ -55,7 +55,7 @@
             <li>Visual Design</li>
           </ul>
        </section>
-       <section class="Design Tools">
+       <section class="design tools">
          <h4>Design Tools</h4>
           <ul style="list-style: none;">
             <li> Google Forms</li>
@@ -85,10 +85,10 @@
        <section class="competitive analysis">
            <h3>Competitive Analysis</h3>
            <p>I started my research by first doing some competitive analysis on 3 big competitors in the cloud storage space that both serve a unique but different purposes. The idea was to throw a wide net and then look for gaps where we could come in and help build an app that met unmet needs with these other competitors.</p>
-            <section class="Evernote">
+            <section class="evernote">
               <h5>Evernote</h5>
               <i class="fab fa-evernote"></i>
-              <section class="Evernote SWAT">
+              <section class="evernote swat">
                 <ul style="list-style: none;">
                   <li>Strengths</li>
                     <ul style="list-style: none;">
@@ -113,10 +113,10 @@
                 </ul>
               </section>
             </section>
-            <section class="Google Drive">
+            <section class="google drive">
               <h5>Google Drive</h5>
               <i class="fab fa-google-drive"></i>
-              <section class="Google SWAT">
+              <section class="google swat">
                 <ul style="list-style: none;">
                   <li>Strengths</li>
                     <ul style="list-style: none;">
@@ -143,10 +143,10 @@
                 </ul>
               </section>
             </section>
-            <section class="Dropbox">
+            <section class="dropbox">
               <h5>Dropbox</h5>
               <i class="fab fa-dropbox"></i>
-              <section class="Dropbox SWAT">
+              <section class="dropbox swat">
                 <ul style="list-style: none;">
                   <li>Strengths</li>
                     <ul style="list-style: none;">
@@ -173,7 +173,7 @@
             </section>
        </section>
          <!-- Survey-->
-         <section class="Survey">
+         <section class="survey">
            <h3>Survey</h3>
            <p>The survey revealed some valuable insight into why users use cloud storage. This helped narrow down which of the 3 competitors I chose that matched up with why they use cloud storage to really find some gaps where I could build a product that met users needs.</p>
            <h5>Below are my key discoveries:</h5>
@@ -188,7 +188,7 @@
            <p>Overall, the data revealed cloud storage is mainly used to store photos and videos but can be complicated to navigate & organize. Based on this data, the personas I created needed to reflect the needs of an easy to understand cloud storage app and was easy to store your photos and videos.</p>
          </section>
          <!-- Personas-->
-         <section class="Personas">
+         <section class="personas">
            <h3>Personas</h3>
            <p>I needed to create personas who actively took photos/videos, who use cloud storage now and who have a desire to organize their life easily so they can continue focusing on what matters to them.</p>
             <section class="Jenna">
@@ -210,7 +210,7 @@
                  <li>Currently using multiple apps.</li>
                </ul>
             </section>
-            <section class="Jim">
+            <section class="jim">
               <img src="assets/case study/jim.png" alt="Jim Persona">
               <h5>Jim Allen</h5>
               <h6>Real Estate Agent</h6>
@@ -231,7 +231,7 @@
           <p>After nailing down the goals, motivations, frustrations and basic lifestyle of the targeted users, it was now time to write some user stories/user flows that solved our users problems.</p>
      </section>
      <!-- USER STORIES/FLOWS-->
-     <section class="User Stories/flows">
+     <section class="user stories/flows">
        <h3>User Stories/Flows</h3>
        <p>I created user stories to highlight the main features of the product. The user stories were then converted into User flows done in Draw.io, to illustrate how the user would interact with the product and accomplish those goals.</p>
        <img src="assets/case study/USimg1.png" alt="User Flow image">
@@ -239,7 +239,7 @@
        <p>With my user stories and flows in place, I began sketching with paper.</p>
      </section>
      <!-- SKETCHES-->
-     <section class="Sketches">
+     <section class="sketches">
        <h3>Sketches</h3>
        <ul>
          <img src="assets/case study/sketch1.png" alt="Sketch Image">
@@ -252,7 +252,7 @@
        <p>Sketching out the user flows on paper helped me to set up the low-fidelity wireframes with ease.</p>
      </section>
      <!-- Low-fidelity Wireframes-->
-     <section class="Low-fidelity wireframes">
+     <section class="lf wireframes">
        <h3>Low-fidelity Wireframes</h3>
        <p>This step could not be skipped as it helped get the information architecture right before adding the visual elements. This saved time and effort and ultimately led to a successful high-fidelity mockup.</p>
        <ul>
@@ -267,7 +267,7 @@
        </ul>
      </section>
      <!-- High-fidelity Mockups-->
-     <section class="High-fidelity Mockups">
+     <section class="hf mockups">
        <h3>High-Fidelity Mockups</h3>
        <ul>
          <img src="assets/case study/mockups/homepage.png" alt="Mockups Image">
@@ -278,22 +278,22 @@
        </ul>
      </section>
      <!-- Prototype-->
-     <section class="Prototype">
+     <section class="prototype">
        <h3>Prototype</h3>
        <p>One of the user stories I needed to design was the ability to move items and organize items either by creating a new shelf or moving an item to a shelf within a notebook or album. It was important that I made these tasks easy to perform as this was one of the big issues we saw during the research phase.</p>
        <a href="https://www.figma.com/file/3Y59Y3qG6k9pKZcioEfefM/High-fidelity-mock-ups-Prototype?node-id=0%3A1">View Prototype</a>
      </section>
      <!-- User testing-->
-     <section class="User Testing">
+     <section class="user testing">
       <h3>User Testing</h3>
       <p>I tested the prototype in the low-fidelity phase and the hi-fidelity phase. The 3 main tasks during the tests where to: sign up for an account, add a photo, and move the most recent photo to an album. Here’s what I learned:</p>
-       <section class="Sign up for account">
+       <section class="sign up for account">
          <h4>Sign up for an account</h4>
          <p>The sign up process was pretty intuitive for all the users. The call to action button sometimes was used and other times it was the “create account” button in the top right hand corner.</p>
          <img src="assets/case study/homepage-1.png" alt="Wireframe image">
          <img src="assets/case study/homepage.png" alt="Mockup image">
        </section>
-       <section class="Add a photo">
+       <section class="add a photo">
          <h4>Add a Photo</h4>
          <p>The drop down menu caused confusion. Users weren’t sure what was clickable. The main issue here was spacing. I also added a blue rectangle around the item when you hovered over clickable items.</p>
          <img src="assets/case study/click new.png" alt="Wireframe image">
@@ -307,7 +307,7 @@
        </section>
      </section>
      <!-- Preference testing-->
-     <section class="Preference testing">
+     <section class="preference testing">
        <h3>Preference Testing</h3>
         <section class="hero image">
           <h4>Hero Image</h4>
@@ -315,7 +315,7 @@
           <img src="assets/case study/heroimage1.png" alt="Hero Image 1">
           <img src="assets/case study/heroimage2.png" alt="Hero Image 2">
         </section>
-        <section class="Search Bar">
+        <section class="search bar">
           <h4>Search Bar</h4>
           <p>This was between a design with a clear gray box around the word “search” or no box at all. The overall test results revealed the design with the light gray box was way easier to see and identify quickly. 100% of particpants chose the option with the gray box. While I actually liked the no box design, it made people have to think about it whereas the box made it easy to find.</p>
           <img src="assets/case study/searchwithbox.png" alt="Search with Box image">
@@ -331,7 +331,7 @@
           <p>I started off with brainstorming with the words cloud storage which led me to the idea of organizing using shelves.</p>
           <img src="assets/case study/mindmap.png" alt="Mindmap image">
         </section>
-        <section class="Logo Design">
+        <section class="logo design">
           <h4>Logo Design</h4>
           <p>I started with some sketches using some more abstract and literal ideas. </p>
           <img src="assets/case study/logoideas.png" alt="Logo Ideas image">
@@ -351,25 +351,26 @@
    </section>
    <!-- FOOTER-->
    <footer>
-     <h3> Let's connect!</h3>
+     <h3 id='connect'> Let's connect!</h3>
        <!-- Social icons -->
- 		    <ul>
- 			    <li>
+         <ul id="socials">
+           <li id="email">
              <a href="mailto:schecter33.3@gmail.com?subject=Let's connect">
- 				    	<i class="far fa-envelope"></i>
+               <i class="far fa-envelope"></i>
              </a>
- 			    </li>
-           <li>
+           </li>
+           <li id="linkedin">
              <a href="https://www.linkedin.com/in/gregtwheeler/">
                <i class="fab fa-linkedin-in"></i>
              </a>
            </li>
-           <li>
+           <li id="github">
              <a href="https://github.com/Gregwheeler87">
                <i class="fab fa-github"></i>
              </a>
            </li>
- 		   	</ul>
-   </footer>
+         </ul>
+     </footer>
+   </div>
   </body>
 </html>

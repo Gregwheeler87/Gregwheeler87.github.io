@@ -1,0 +1,218 @@
+/*GLOBAL CSS SETTINGS*/
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #FFFFFF;
+  margin: 0;
+}
+
+p {
+font-size: 1.6rem;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+letter-spacing: 0.0625em;
+margin-bottom: 1;
+}
+
+h1 {
+  font-size: 4.0rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  margin: 1;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h5 {
+  font-size: 1.6rem;
+}
+
+.container {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(25px, auto);
+  grid-template-areas:
+   "header"
+   "csintro"
+   "roles"
+   "problem"
+   "solution"
+   "process"
+   "conclusion"
+   "footer"
+}
+
+section {
+margin-top: 1rem;
+margin-left: 2rem;
+margin-right: 2rem;
+padding: 0;
+}
+
+
+/*HEADER*/
+
+.header {
+  align-items: center;
+  background-color: #1B1D29;
+  display: flex;
+  grid-area: header;
+  height: 100%;
+  margin:0;
+  width: 100%;
+
+}
+
+.logo {
+  flex: 1;
+  margin: 0 0 0 0;
+  padding-top: 1%;
+  padding-left: 3%;
+  padding-bottom: 1%;
+
+}
+
+
+#navbar {
+  display: flex;
+  font-size: 1.4rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#about {
+  color: #EAEDEA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding: 8px;
+}
+
+#project {
+  color: #EAEDEA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding: 8px;
+}
+
+/*CASE STUDY INTRO*/
+
+.casestudyintro {
+  grid-area: csintro;
+}
+
+/*Roles, deliverables, tools*/
+
+.rolesshell {
+  grid-area: roles;
+}
+
+/*PROBLEM*/
+
+.problem {
+  grid-area: problem;
+}
+
+
+/*SOLUTION*/
+
+.solution {
+  grid-area: solution;
+}
+
+/*PROCESS*/
+
+.process {
+  grid-area: process;
+}
+
+/*CONCLUSION*/
+
+.conclusion {
+  grid-area: conclusion;
+}
+
+
+
+/*FOOTER*/
+
+footer {
+  background-color: #1B1D29;
+  color: #EAEDEA;
+  font-size: 2.4rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  grid-area: footer;
+  text-align: center;
+}
+
+#connect {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+#socials {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 1;
+  padding: 0;
+}
+
+li {
+  padding: 2%;
+}
+
+
+
+
+/*SCREEN SIZES*/
+
+@-ms-viewport{
+  width: device-width;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  section {
+  margin-top: 1rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  padding: 0;
+  }
+
+
+
+
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  section {
+  margin-top: 1rem;
+  margin-left: 30rem;
+  margin-right: 30rem;
+  padding: 0;
+  }
+}
