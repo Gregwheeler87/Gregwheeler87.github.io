@@ -12,30 +12,69 @@ body {
   margin: 0;
 }
 
-p {
-font-size: 1.6rem;
-font-family: 'Roboto', sans-serif;
-font-weight: 300;
-letter-spacing: 0.0625em;
-margin-bottom: 1;
-}
-
 h1 {
+  display: flex;
   font-size: 4.0rem;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-}
-
-h3 {
-  margin: 1;
+  justify-content: center;
 }
 
 h2 {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
   font-size: 3.2rem;
+  font-weight: 500;
+  justify-content: center;
+}
+
+h3 {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.0rem;
+  font-weight: 300;
+  justify-content: center;
+  margin: 1;
+}
+
+h4 {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 400;
+  justify-content: center;
+  margin-bottom: 0;
+
 }
 
 h5 {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.0rem;
+  font-weight: 500;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+h6 {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
+  font-weight: 300;
+  justify-content: center;
+  margin-bottom: 0;
+  margin-top: 3%;
+}
+
+p {
+  display: flex;
+font-size: 1.6rem;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+justify-content: center;
+letter-spacing: 0.0625em;
+line-height: 1.5;
+margin-bottom: 1;
 }
 
 .container {
@@ -61,6 +100,9 @@ margin-right: 2rem;
 padding: 0;
 }
 
+img {
+  width: 100%;
+}
 
 /*HEADER*/
 
@@ -116,7 +158,20 @@ padding: 0;
 /*Roles, deliverables, tools*/
 
 .rolesshell {
+  background-color: #F2F2F2;
   grid-area: roles;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.roles {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin: 0'
+  max-width: 375px;
+  padding: 0;
+  text-align: center;
 }
 
 /*PROBLEM*/
@@ -129,7 +184,24 @@ padding: 0;
 /*SOLUTION*/
 
 .solution {
+  background-color: #F2F2F2;
   grid-area: solution;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#solutiontext {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.cslink {
+  color: #1B1D29;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.4rem;
+  justify-content: center;
+  padding-bottom: 10%;
 }
 
 /*PROCESS*/
@@ -138,12 +210,115 @@ padding: 0;
   grid-area: process;
 }
 
+.evernote.swat {
+  margin-left: 0;
+  margin-right: 0;
+}
+.fab.fa-evernote.fa-4x {
+display: flex;
+justify-content: center;
+}
+
+.swatitems {
+  padding: 5%;
+}
+
+#calist {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding-left: 0;
+  text-align: center;
+}
+
+.points {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  letter-spacing: 0.0625em;
+  padding-left: 0;
+  text-align: left;
+}
+
+.fab.fa-google-drive.fa-4x {
+display: flex;
+justify-content: center;
+}
+
+.google.swat {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.fab.fa-dropbox.fa-4x {
+display: flex;
+justify-content: center;
+}
+
+.dropbox.swat {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.survey {
+  background-color: #F2F2F2;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+.bulletpoints {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  letter-spacing: 0.0625em;
+}
+
+.personas {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+.user-stories-flows {
+  background-color: #F2F2F2;
+  margin-left: 0;
+  margin-right: 0;
+  /* width: 100%; */
+}
+
+.lf.wireframes {
+  background-color: #F2F2F2;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.prototype {
+  background-color: #F2F2F2;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.preference.testing {
+  background-color: #F2F2F2;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
 /*CONCLUSION*/
 
 .conclusion {
+  background-color: #F2F2F2;
   grid-area: conclusion;
+  margin-left: 0;
+  margin-right: 0;
 }
 
+.conclusiontext {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
 
 
 /*FOOTER*/
@@ -191,14 +366,16 @@ li {
     width: 100%;
   }
 
+  html {
+    font-size: 12px;
+  }
+
   section {
   margin-top: 1rem;
   margin-left: 6rem;
   margin-right: 6rem;
   padding: 0;
   }
-
-
 
 
 }
@@ -214,5 +391,9 @@ li {
   margin-left: 30rem;
   margin-right: 30rem;
   padding: 0;
+  }
+
+  html {
+    font-size: 15px;
   }
 }
