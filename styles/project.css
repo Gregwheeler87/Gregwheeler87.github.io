@@ -50,7 +50,7 @@ h4 {
 h5 {
   display: flex;
   font-family: 'Roboto', sans-serif;
-  font-size: 2.0rem;
+  font-size: 2.4rem;
   font-weight: 500;
   justify-content: center;
   margin-bottom: 0;
@@ -75,6 +75,8 @@ justify-content: center;
 letter-spacing: 0.0625em;
 line-height: 1.5;
 margin-bottom: 1;
+margin-left: 2rem;
+margin-right: 2rem;
 }
 
 .container {
@@ -95,13 +97,18 @@ margin-bottom: 1;
 
 section {
 margin-top: 1rem;
-margin-left: 2rem;
-margin-right: 2rem;
+/* margin-left: 2rem;
+margin-right: 2rem; */
 padding: 0;
 }
 
 img {
-  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  width: 80%;
+
 }
 
 /*HEADER*/
@@ -120,6 +127,7 @@ img {
 .logo {
   flex: 1;
   margin: 0 0 0 0;
+  max-width: 10%;
   padding-top: 1%;
   padding-left: 3%;
   padding-bottom: 1%;
@@ -147,6 +155,10 @@ img {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   padding: 8px;
+}
+
+ul {
+  padding-left: 0;
 }
 
 /*CASE STUDY INTRO*/
@@ -178,6 +190,8 @@ img {
 
 .problem {
   grid-area: problem;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 
@@ -190,10 +204,6 @@ img {
   margin-right: 0;
 }
 
-#solutiontext {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
 
 .cslink {
   color: #1B1D29;
@@ -208,11 +218,13 @@ img {
 
 .process {
   grid-area: process;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .evernote.swat {
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 .fab.fa-evernote.fa-4x {
 display: flex;
@@ -245,9 +257,15 @@ display: flex;
 justify-content: center;
 }
 
-.google.swat {
+.competitiveanalysis {
   margin-left: 0;
   margin-right: 0;
+  width: 100%;
+}
+
+.google.swat {
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .fab.fa-dropbox.fa-4x {
@@ -256,8 +274,8 @@ justify-content: center;
 }
 
 .dropbox.swat {
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .survey {
@@ -272,6 +290,7 @@ justify-content: center;
   font-size: 1.6rem;
   font-weight: 300;
   letter-spacing: 0.0625em;
+  padding-left: 7%;
 }
 
 .personas {
@@ -299,8 +318,18 @@ justify-content: center;
   margin-right: 0;
 }
 
+.user.testing {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .preference.testing {
   background-color: #F2F2F2;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.branding {
   margin-left: 0;
   margin-right: 0;
 }
@@ -367,13 +396,13 @@ li {
   }
 
   html {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   section {
   margin-top: 1rem;
-  margin-left: 6rem;
-  margin-right: 6rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
   padding: 0;
   }
 
@@ -386,14 +415,21 @@ li {
     grid-template-columns: 1fr;
     width: 100%;
   }
+
+  html {
+    font-size: 13px;
+  }
+
   section {
   margin-top: 1rem;
-  margin-left: 30rem;
-  margin-right: 30rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
   padding: 0;
   }
 
-  html {
-    font-size: 15px;
+  p {
+    margin-left: 15rem;
+    margin-right: 15rem;
   }
+
 }

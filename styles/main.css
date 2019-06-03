@@ -75,6 +75,7 @@ padding: 10rem 0;
 .logo {
   flex: 1;
   margin: 0 0 0 0;
+  max-width: 10%;
   padding-top: 1%;
   padding-left: 3%;
   padding-bottom: 1%;
@@ -143,7 +144,7 @@ margin-bottom: 0;
 }
 
 .herocontent{
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto', sans-serif;
   grid-area: hero-content;
   padding: 2% 2% 2% 2%;
   margin-top: 0;
@@ -151,7 +152,7 @@ margin-bottom: 0;
 }
 
 #hctext {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 2.0rem;
   font-weight: 300;
   letter-spacing: 50%;
@@ -160,7 +161,7 @@ margin-bottom: 0;
 
 .csheadline{
   font-size: 2.0rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   grid-area: csheadline;
   margin-top: 0;
   padding-top: 0;
@@ -189,15 +190,15 @@ margin-bottom: 0;
 
 #shelf {
   font-size: 3.2rem;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
   margin: 3%;
 }
 
 #viewcasestudy {
   color: #EAEDEA;
   font-size: 1.8rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
 
@@ -220,7 +221,7 @@ margin-bottom: 0;
 
 #drip {
   font-size: 3.2rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 100;
   margin: 3%;
 }
@@ -267,20 +268,19 @@ li {
     grid-template-columns: 1fr;
     width: 100%;
   }
-  #userexperience {
-  font-size: 4.5rem;
+
+  html {
+    font-size: 15px;
   }
 
-  #researcher {
-  font-size: 6.0rem;
+  .hero {
+    height: 500px;
   }
 
-  #location {
-  font-size: 1.8rem;
-  }
-  #casestudybox {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  .herocontent{
+    padding-left: 5%;
+    padding-right: 5%;
+
   }
 
 }
@@ -291,16 +291,30 @@ li {
     grid-template-columns: 1fr;
     width: 100%;
   }
+
+  html {
+    font-size: 15px;
+  }
+
+  .hero {
+    height: 800px;
+  }
+  .herocontent{
+    padding-left: 10%;
+    padding-right: 10%;
+
+  }
+
   #userexperience {
-  font-size: 5.5rem;
+  font-size: 5.0rem;
   }
 
   #researcher {
-  font-size: 7.0rem;
+  font-size: 6.0rem;
   }
 
   #location {
-  font-size: 2.4rem;
+  font-size: 2.0rem;
   }
   #casestudybox {
     display: grid;
