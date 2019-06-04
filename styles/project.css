@@ -75,8 +75,8 @@ justify-content: center;
 letter-spacing: 0.0625em;
 line-height: 1.5;
 margin-bottom: 1;
-margin-left: 2rem;
-margin-right: 2rem;
+margin-left: 5%;
+margin-right: 5%;
 }
 
 .container {
@@ -99,7 +99,10 @@ section {
 margin-top: 1rem;
 /* margin-left: 2rem;
 margin-right: 2rem; */
+margin-bottom: 1rem;
 padding: 0;
+padding-top: 1rem;
+padding-bottom: 1rem;
 }
 
 img {
@@ -127,11 +130,16 @@ img {
 .logo {
   flex: 1;
   margin: 0 0 0 0;
-  max-width: 10%;
   padding-top: 1%;
   padding-left: 3%;
   padding-bottom: 1%;
 
+}
+
+#logoimg {
+  min-width: 15%;
+  max-width: 7%;
+  margin: 0;
 }
 
 
@@ -306,7 +314,7 @@ justify-content: center;
   /* width: 100%; */
 }
 
-.lf.wireframes {
+.lfwireframes {
   background-color: #F2F2F2;
   margin-left: 0;
   margin-right: 0;
@@ -375,6 +383,18 @@ footer {
   padding: 0;
 }
 
+.far.fa-envelope {
+  color: #EAEDEA;
+}
+
+.fab.fa-linkedin-in {
+ color: #EAEDEA;
+}
+
+.fab.fa-github {
+  color: #EAEDEA;
+}
+
 li {
   padding: 2%;
 }
@@ -406,6 +426,152 @@ li {
   padding: 0;
   }
 
+  #logoimg {
+    min-width: 10%;
+    max-width: 7%;
+    margin: 0;
+  }
+
+  #casestudyintrotext {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .compgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .evernote {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .google {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .dropbox {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .personagrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .jenna {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .jim {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .sketchgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .sketches {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .userflowsgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .lfwireframes {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  .wireframesgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  #wireframetext {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .mockupsgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .hfmockups {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .signupforaccountgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .addaphotogrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .albumgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .heroimagegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .searchgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .insidetext {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .rolesshell {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .rolesdesktop {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  p {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .conclusiontext {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  li {
+    padding: 2%;
+  }
 
 }
 
@@ -417,7 +583,7 @@ li {
   }
 
   html {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   section {
@@ -427,9 +593,142 @@ li {
   padding: 0;
   }
 
+  #casestudyintrotext {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+
+.compgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.evernote {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.google {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.dropbox {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.personagrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.jenna {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.jim {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+.sketchgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.sketches {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.userflowsgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.lfwireframes {
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+
+.wireframesgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+#wireframetext {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.mockupsgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.hfmockups {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.signupforaccountgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.addaphotogrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.albumgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.heroimagegrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.searchgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
   p {
-    margin-left: 15rem;
-    margin-right: 15rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .rolesshell {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .rolesdesktop {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .conclusiontext {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  li {
+    padding: 2%;
   }
 
 }

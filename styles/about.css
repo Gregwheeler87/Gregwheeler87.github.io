@@ -59,6 +59,14 @@ margin-right: 2rem;
 padding: 0;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  width: 80%;
+
+}
 
 /*SECTIONS*/
 
@@ -76,11 +84,16 @@ padding: 0;
 .logo {
   flex: 1;
   margin: 0 0 0 0;
-  max-width: 10%;
   padding-top: 1%;
   padding-left: 3%;
   padding-bottom: 1%;
 
+}
+
+#logoimg {
+  min-width: 15%;
+  max-width: 7%;
+  margin: 0;
 }
 
 
@@ -173,6 +186,18 @@ footer {
   padding: 0;
 }
 
+.far.fa-envelope {
+  color: #EAEDEA;
+}
+
+.fab.fa-linkedin-in {
+ color: #EAEDEA;
+}
+
+.fab.fa-github {
+  color: #EAEDEA;
+}
+
 li {
   padding: 2%;
 }
@@ -204,8 +229,18 @@ li {
     font-size: 15px;
   }
 
+  #logoimg {
+    min-width: 10%;
+    max-width: 7%;
+    margin: 0;
+  }
+
   .abouthero{
     height: 700px;
+  }
+
+  li {
+    padding: 2%;
   }
 
 
@@ -231,5 +266,9 @@ li {
 
   .abouthero {
     height: 1200px;
+  }
+
+  li {
+    padding: 2%;
   }
 }

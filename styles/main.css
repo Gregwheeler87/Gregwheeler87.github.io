@@ -58,6 +58,14 @@ margin-top: 1rem;
 padding: 10rem 0;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  width: 80%;
+
+}
 
 /*SECTIONS*/
 
@@ -75,16 +83,21 @@ padding: 10rem 0;
 .logo {
   flex: 1;
   margin: 0 0 0 0;
-  max-width: 10%;
   padding-top: 1%;
   padding-left: 3%;
   padding-bottom: 1%;
 
 }
 
+#logoimg {
+  min-width: 15%;
+  max-width: 7%;
+  margin: 0;
+}
+
 #navbar {
   display: flex;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -144,16 +157,18 @@ margin-bottom: 0;
 }
 
 .herocontent{
+  /* border-style: solid;
+  border-color: #2CCFDC; */
   font-family: 'Roboto', sans-serif;
   grid-area: hero-content;
   padding: 2% 2% 2% 2%;
-  margin-top: 0;
+  margin: 0;
   text-align: center;
 }
 
 #hctext {
   font-family: 'Roboto', sans-serif;
-  font-size: 2.0rem;
+  font-size: 1.6rem;
   font-weight: 300;
   letter-spacing: 50%;
   line-height: 1.45;
@@ -184,9 +199,11 @@ margin-bottom: 0;
   padding-right: 15%;
   margin-left: 2%;
   margin-right: 2%;
+  margin-bottom: 2%;
   text-align: center;
 
 }
+
 
 #shelf {
   font-size: 3.2rem;
@@ -249,6 +266,18 @@ footer {
   padding: 0;
 }
 
+.far.fa-envelope {
+  color: #EAEDEA;
+}
+
+.fab.fa-linkedin-in {
+ color: #EAEDEA;
+}
+
+.fab.fa-github {
+  color: #EAEDEA;
+}
+
 li {
   padding: 2%;
 }
@@ -271,6 +300,12 @@ li {
 
   html {
     font-size: 15px;
+  }
+
+  #logoimg {
+    min-width: 10%;
+    max-width: 7%;
+    margin: 0;
   }
 
   .hero {

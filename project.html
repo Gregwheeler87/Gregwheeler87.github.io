@@ -14,7 +14,7 @@
       <!-- HEADER -->
       <header class= "header">
         <div class="logo">
-          <a href="/"><img src="assets/logo.png" alt="Greg Wheeler Logo"></a>
+          <a href="/"><img id="logoimg"src="assets/logo.png" alt="Greg Wheeler Logo"></a>
         </div>
         <nav>
           <ul id= "navbar">
@@ -27,12 +27,12 @@
      <section class="casestudyintro">
        <h3>Case Study</h3>
        <h1>Shelf</h1>
-       <p>Shelf is a cloud storage app for personal use that allows you to easily save and organize your photos, videos, and notes. </p>
+       <p id="casestudyintrotext">Shelf is a cloud storage app for personal use that allows you to easily save and organize your photos, videos, and notes. </p>
        <img src="assets/case study/casestudyintro.png" alt="Image of Shelf Application">
      </section>
         <!-- Roles, Deliverables, Tools-->
      <section class="rolesshell">
-       <section class="designroles">
+       <section class="rolesdesktop">
          <h4>Design Roles</h4>
           <ul class="roles" style="list-style: none;">
             <li>User Research</li>
@@ -41,7 +41,7 @@
             <li>Branding & Identity</li>
           </ul>
        </section>
-       <section class="design deliverables">
+       <section class="rolesdesktop">
          <h4>Design Deliverables</h4>
           <ul class= "roles" style="list-style: none;">
             <li>User Surveys</li>
@@ -55,7 +55,7 @@
             <li>Visual Design</li>
           </ul>
        </section>
-       <section class="design tools">
+       <section class="rolesdesktop">
          <h4>Design Tools</h4>
           <ul class= "roles" style="list-style: none;">
             <li> Google Forms</li>
@@ -85,6 +85,7 @@
        <section class="competitiveanalysis">
            <h3>Competitive Analysis</h3>
            <p>I started my research by first doing some competitive analysis on 3 big competitors in the cloud storage space that both serve a unique but different purposes. The idea was to throw a wide net and then look for gaps where we could come in and help build an app that met unmet needs with these other competitors.</p>
+           <div class="compgrid">
             <section class="evernote">
               <h5>Evernote</h5>
               <i class="fab fa-evernote fa-4x"></i>
@@ -143,6 +144,7 @@
                 </ul>
               </section>
             </section>
+
             <section class="dropbox">
               <h5>Dropbox</h5>
               <i class="fab fa-dropbox fa-4x"></i>
@@ -171,6 +173,7 @@
                 </ul>
               </section>
             </section>
+          </div>
        </section>
          <!-- Survey-->
          <section class="survey">
@@ -191,7 +194,8 @@
          <section class="personas">
            <h3>Personas</h3>
            <p>I needed to create personas who actively took photos/videos, who use cloud storage now and who have a desire to organize their life easily so they can continue focusing on what matters to them.</p>
-            <section class="Jenna">
+           <div class="personagrid">
+            <section class="jenna">
               <img src="assets/case study/jenna.png" alt="Jenna Persona">
               <h5>Jenna Hopkins</h5>
               <h6>Homemaker</h6>
@@ -211,7 +215,7 @@
                </ul>
             </section>
             <section class="jim">
-              <img src="assets/case study/jim.png" alt="Jim Persona">
+              <img id="jimphoto" src="assets/case study/jim.png" alt="Jim Persona">
               <h5>Jim Allen</h5>
               <h6>Real Estate Agent</h6>
               <h6>Age: 33 / Status: Married / Location: Texas</h6>
@@ -228,20 +232,23 @@
                  <li>Wishes syncing was more reliable</li>
                </ul>
             </section>
+          </div>
           <p>After nailing down the goals, motivations, frustrations and basic lifestyle of the targeted users, it was now time to write some user stories/user flows that solved our users problems.</p>
      </section>
      <!-- USER STORIES/FLOWS-->
      <section class="user-stories-flows">
        <h3>User Stories/Flows</h3>
        <p>I created user stories to highlight the main features of the product. The user stories were then converted into User flows done in Draw.io, to illustrate how the user would interact with the product and accomplish those goals.</p>
-       <img src="assets/case study/USimg1.png" alt="User Flow image">
-       <img src="assets/case study/USimg2.png" alt="User Flow image">
+       <div class="userflowsgrid">
+        <img src="assets/case study/USimg1.png" alt="User Flow image">
+        <img src="assets/case study/USimg2.png" alt="User Flow image">
+       </div>
        <p>With my user stories and flows in place, I began sketching with paper.</p>
      </section>
      <!-- SKETCHES-->
      <section class="sketches">
        <h3>Sketches</h3>
-       <ul>
+       <ul class="sketchgrid">
          <img src="assets/case study/sketch1.png" alt="Sketch Image">
          <img src="assets/case study/sketch2.png" alt="Sketch Image">
          <img src="assets/case study/sketch3.png" alt="Sketch Image">
@@ -249,13 +256,13 @@
          <img src="assets/case study/sketch5.png" alt="Sketch Image">
          <img src="assets/case study/sketch6.png" alt="Sketch Image">
        </ul>
-       <p>Sketching out the user flows on paper helped me to set up the low-fidelity wireframes with ease.</p>
+       <p class="insidetext">Sketching out the user flows on paper helped me to set up the low-fidelity wireframes with ease.</p>
      </section>
      <!-- Low-fidelity Wireframes-->
-     <section class="lf wireframes">
+     <section class="lfwireframes">
        <h3>Low-fidelity Wireframes</h3>
-       <p>This step could not be skipped as it helped get the information architecture right before adding the visual elements. This saved time and effort and ultimately led to a successful high-fidelity mockup.</p>
-       <ul>
+       <p id="wireframetext">This step could not be skipped as it helped get the information architecture right before adding the visual elements. This saved time and effort and ultimately led to a successful high-fidelity mockup.</p>
+       <ul class="wireframesgrid">
          <img src="assets/case study/wf-dashboard.png" alt="Wireframes Image">
          <img src="assets/case study/wf-clicknew.png" alt="Wireframes Image">
          <img src="assets/case study/wf-clicknew1.png" alt="Wireframes Image">
@@ -267,9 +274,9 @@
        </ul>
      </section>
      <!-- High-fidelity Mockups-->
-     <section class="hf mockups">
+     <section class="hfmockups">
        <h3>High-Fidelity Mockups</h3>
-       <ul>
+       <ul class="mockupsgrid">
          <img src="assets/case study/hf-homepage.png" alt="Mockups Image">
          <img src="assets/case study/hf-create album.png" alt="Mockups Image">
          <img src="assets/case study/hf-create notebook.png" alt="Mockups Image">
@@ -289,21 +296,27 @@
       <p>I tested the prototype in the low-fidelity phase and the hi-fidelity phase. The 3 main tasks during the tests where to: sign up for an account, add a photo, and move the most recent photo to an album. Here’s what I learned:</p>
        <section class="sign up for account">
          <h4>Sign up for an account</h4>
-         <p>The sign up process was pretty intuitive for all the users. The call to action button sometimes was used and other times it was the “create account” button in the top right hand corner.</p>
-         <img src="assets/case study/homepage-1.png" alt="Wireframe image">
-         <img src="assets/case study/homepage.png" alt="Mockup image">
+         <p class="insidetext">The sign up process was pretty intuitive for all the users. The call to action button sometimes was used and other times it was the “create account” button in the top right hand corner.</p>
+         <div class="signupforaccountgrid">
+          <img src="assets/case study/homepage-1.png" alt="Wireframe image">
+          <img src="assets/case study/homepage.png" alt="Mockup image">
+         </div>
        </section>
        <section class="add a photo">
          <h4>Add a Photo</h4>
-         <p>The drop down menu caused confusion. Users weren’t sure what was clickable. The main issue here was spacing. I also added a blue rectangle around the item when you hovered over clickable items.</p>
-         <img src="assets/case study/click new.png" alt="Wireframe image">
-         <img src="assets/case study/click new drop down 2.png" alt="Mockup image">
+         <p class="insidetext">The drop down menu caused confusion. Users weren’t sure what was clickable. The main issue here was spacing. I also added a blue rectangle around the item when you hovered over clickable items.</p>
+         <div class="addaphotogrid">
+          <img src="assets/case study/click new.png" alt="Wireframe image">
+          <img src="assets/case study/click new drop down 2.png" alt="Mockup image">
+        </div>
        </section>
        <section class="move photo into album">
          <h4>Move a photo into an album</h4>
-         <p>The “move” icon was not clear. Simply adding the word “move” under the icon made a much better experience. In addition to that, the initial design had the user click on a file to reveal options of moving the item to a shelf, album and or notebook. This proved to be unsuccessful as it wasn’t clear that the user needed to click on the file. Our 2nd interation included the options when hovering over the image making this very easy to see how you can move an item. </p>
-         <img src="assets/case study/single click.png" alt="Wireframe image">
-         <img src="assets/case study/options when clicking on note.png" alt="Mockup image">
+         <p class="insidetext">The “move” icon was not clear. Simply adding the word “move” under the icon made a much better experience. In addition to that, the initial design had the user click on a file to reveal options of moving the item to a shelf, album and or notebook. This proved to be unsuccessful as it wasn’t clear that the user needed to click on the file. Our 2nd interation included the options when hovering over the image making this very easy to see how you can move an item. </p>
+         <div class="albumgrid">
+          <img src="assets/case study/single click.png" alt="Wireframe image">
+          <img src="assets/case study/options when clicking on note.png" alt="Mockup image">
+         </div>
        </section>
      </section>
      <!-- Preference testing-->
@@ -311,15 +324,19 @@
        <h3>Preference Testing</h3>
         <section class="hero image">
           <h4>Hero Image</h4>
-          <p>I had 2 different Hero images for the preference test. The results were at a 60/40 split. 60% liked the image of the kids playing while 40% liked the image of the bookshelf. Those who liked the image of the kids thought it went well with the tag line “Store and organize your favorite moments”. There were some comments though that had said the image with the kids didn’t communicate anything about “storing” which I thought was a good point. The image of the bookshelf doesn’t evoke emotion like the kids playing. Overall I believe the kids playing evokes more emotion and goes with the branding.</p>
-          <img src="assets/case study/heroimage1.png" alt="Hero Image 1">
-          <img src="assets/case study/heroimage2.png" alt="Hero Image 2">
+          <p class="insidetext">I had 2 different Hero images for the preference test. The results were at a 60/40 split. 60% liked the image of the kids playing while 40% liked the image of the bookshelf. Those who liked the image of the kids thought it went well with the tag line “Store and organize your favorite moments”. There were some comments though that had said the image with the kids didn’t communicate anything about “storing” which I thought was a good point. The image of the bookshelf doesn’t evoke emotion like the kids playing. Overall I believe the kids playing evokes more emotion and goes with the branding.</p>
+          <div class="heroimagegrid">
+           <img src="assets/case study/heroimage1.png" alt="Hero Image 1">
+           <img src="assets/case study/heroimage2.png" alt="Hero Image 2">
+          </div>
         </section>
         <section class="search bar">
           <h4>Search Bar</h4>
-          <p>This was between a design with a clear gray box around the word “search” or no box at all. The overall test results revealed the design with the light gray box was way easier to see and identify quickly. 100% of particpants chose the option with the gray box. While I actually liked the no box design, it made people have to think about it whereas the box made it easy to find.</p>
-          <img src="assets/case study/searchwithbox.png" alt="Search with Box image">
-          <img src="assets/case study/searchwithoutbox.png" alt="Search without Box image">
+          <p class="insidetext">This was between a design with a clear gray box around the word “search” or no box at all. The overall test results revealed the design with the light gray box was way easier to see and identify quickly. 100% of particpants chose the option with the gray box. While I actually liked the no box design, it made people have to think about it whereas the box made it easy to find.</p>
+          <div class="searchgrid">
+           <img src="assets/case study/searchwithbox.png" alt="Search with Box image">
+           <img src="assets/case study/searchwithoutbox.png" alt="Search without Box image">
+          </div>
         </section>
      </section>
      <!-- Branding-->
@@ -328,16 +345,16 @@
        <p>Shelf was created to solve the problem of needing to easily organize your digital content in a fun and familiar way. So the branding needing to reflect a simple and clean approach to help communicate the message.</p>
         <section class="conceptual ideation">
           <h4>Conceptual Ideation</h4>
-          <p>I started off with brainstorming with the words cloud storage which led me to the idea of organizing using shelves.</p>
+          <p class="insidetext">I started off with brainstorming with the words cloud storage which led me to the idea of organizing using shelves.</p>
           <img src="assets/case study/mindmap.png" alt="Mindmap image">
         </section>
         <section class="logodesign">
           <h4>Logo Design</h4>
-          <p>I started with some sketches using some more abstract and literal ideas. </p>
+          <p class="insidetext">I started with some sketches using some more abstract and literal ideas. </p>
           <img src="assets/case study/logoideas.png" alt="Logo Ideas image">
-          <p>The end result was a more abstract logo using the E as the shelf.</p>
+          <p class="insidetext">The end result was a more abstract logo using the E as the shelf.</p>
           <img src="assets/case study/welcome to our brand.png" alt="Final Logo image">
-          <p>To help communicate the fun aspect of Shelf, I wanted to use brighter and cheerful colors that went along with the background colors I chose. The yellow brings out the fun and excitement while the blue balances it out with a color that communicates trust and stability to showcase the familiarity of a shelf.</p>
+          <p class="insidetext">To help communicate the fun aspect of Shelf, I wanted to use brighter and cheerful colors that went along with the background colors I chose. The yellow brings out the fun and excitement while the blue balances it out with a color that communicates trust and stability to showcase the familiarity of a shelf.</p>
           <img src="assets/case study/color palettes.png" alt="Color Palette image">
         </section>
      </section>
