@@ -118,7 +118,7 @@ img {
 }
 
 .hero {
-  background-image: url("../assets/Portfoliohero.jpg");
+  background-image: url("../Assets/Portfoliohero.jpg");
   background-color: #cccccc; /* Used if the image is unavailable */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
