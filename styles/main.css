@@ -94,6 +94,7 @@ img {
   min-width: 15%;
   max-width: 20%;
   margin: 0;
+  margin-right: 0;
 }
 
 #navbar {
@@ -304,7 +305,7 @@ li {
   }
 
   html {
-    font-size: 15px;
+    font-size: 10px;
   }
 
   #logoimg {
@@ -333,7 +334,7 @@ li {
   }
 
   html {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .hero {
