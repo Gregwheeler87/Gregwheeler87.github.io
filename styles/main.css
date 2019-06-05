@@ -126,7 +126,6 @@ img {
   background-size: cover; /* Resize the background image to cover the entire container */
   /* width: 100%: */
   color: #EAEDEA;
-  filter: opacity(80%);
   font-family: 'Roboto', sans-serif;
   grid-area: hero;
   height: 365px; /* You must set a specified height */
