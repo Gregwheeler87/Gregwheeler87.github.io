@@ -428,7 +428,7 @@ li {
 
   #logoimg {
     min-width: 10%;
-    max-width: 7%;
+    max-width: 15%;
     margin: 0;
   }
 
@@ -591,6 +591,8 @@ li {
   margin-left: 15rem;
   margin-right: 15rem;
   padding: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   }
 
   #casestudyintrotext {
@@ -708,8 +710,8 @@ li {
 }
 
   p {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
   }
 
   .rolesshell {

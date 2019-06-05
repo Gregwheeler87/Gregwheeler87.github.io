@@ -92,13 +92,13 @@ img {
 
 #logoimg {
   min-width: 15%;
-  max-width: 7%;
+  max-width: 20%;
   margin: 0;
 }
 
 #navbar {
   display: flex;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -126,6 +126,7 @@ img {
   background-size: cover; /* Resize the background image to cover the entire container */
   /* width: 100%: */
   color: #EAEDEA;
+  filter: opacity(80%);
   font-family: 'Roboto', sans-serif;
   grid-area: hero;
   height: 365px; /* You must set a specified height */
@@ -204,7 +205,7 @@ margin-bottom: 0;
 
 }
 
-.case.study.1 {
+.casestudy1 {
   padding-bottom: 3%;
 }
 
@@ -309,7 +310,7 @@ li {
 
   #logoimg {
     min-width: 10%;
-    max-width: 7%;
+    max-width: 15%;
     margin: 0;
   }
 
