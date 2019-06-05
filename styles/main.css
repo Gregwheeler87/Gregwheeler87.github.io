@@ -55,6 +55,7 @@ h5 {
 
 section {
 margin-top: 1rem;
+margin-bottom: 1rem;
 padding: 10rem 0;
 }
 
@@ -199,9 +200,12 @@ margin-bottom: 0;
   padding-right: 15%;
   margin-left: 2%;
   margin-right: 2%;
-  margin-bottom: 2%;
   text-align: center;
 
+}
+
+.case.study.1 {
+  padding-bottom: 3%;
 }
 
 
@@ -232,6 +236,7 @@ margin-bottom: 0;
   padding-right: 15%;
   margin-left: 2%;
   margin-right: 2%;
+  margin-bottom: 2%;
   text-align: center;
 
 }
