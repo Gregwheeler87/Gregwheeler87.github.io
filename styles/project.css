@@ -142,6 +142,10 @@ img {
   margin: 0;
 }
 
+nav {
+  padding-left: 12%;
+}
+
 
 #navbar {
   display: flex;
