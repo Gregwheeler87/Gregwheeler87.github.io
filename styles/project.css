@@ -128,7 +128,7 @@ img {
 }
 
 .logo {
-  flex: 1;
+  /* flex: 1; */
   margin: 0 0 0 0;
   padding-top: 1%;
   padding-left: 3%;
@@ -427,9 +427,12 @@ li {
   }
 
   #logoimg {
-    min-width: 8%;
-    max-width: 8%;
+    min-width: 25%;
     margin: 0;
+  }
+
+  nav {
+    padding-left: 50%;
   }
 
   #casestudyintrotext {
@@ -600,6 +603,13 @@ li {
     margin-right: 5rem;
   }
 
+  #logoimg {
+    min-width: 30%;
+  }
+
+  nav {
+    padding-left: 68%;
+  }
 
 .compgrid {
   display: grid;

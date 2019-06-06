@@ -82,7 +82,7 @@ img {
 }
 
 .logo {
-  flex: 1;
+  /* flex: 1; */
   margin: 0 0 0 0;
   padding-top: 1%;
   padding-left: 3%;
@@ -230,13 +230,16 @@ li {
   }
 
   #logoimg {
-    min-width: 8%;
-    max-width: 8%;
+    min-width: 25%;
     margin: 0;
   }
 
   .abouthero{
     height: 700px;
+  }
+
+  nav {
+    padding-left: 50%;
   }
 
   li {
@@ -261,6 +264,14 @@ li {
 
   html {
     font-size: 12px;
+  }
+
+  nav {
+    padding-left: 68%;
+  }
+
+  #logoimg {
+    min-width: 30%;
   }
 
   p {
