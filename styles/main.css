@@ -313,13 +313,9 @@ li {
 
   #logoimg {
     min-width: 15%;
-    max-width: 10%;
+    max-width: 15%;
     margin: 0;
   }
-
-  /* nav {
-    padding-left: 50%;
-  } */
 
   .hero {
     height: 500px;
@@ -354,11 +350,6 @@ li {
 
   }
 
-  #logoimg {
-    min-width: 15%;
-    max-width: 10%;
-    margin: 0;
-  }
 
   #userexperience {
   font-size: 6.0rem;
