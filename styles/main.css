@@ -96,6 +96,10 @@ img {
   margin: 0;
 }
 
+nav {
+  padding-left: 30%;
+}
+
 #navbar {
   display: flex;
   font-size: 1.4rem;
@@ -354,7 +358,7 @@ li {
   }
 
   nav {
-    padding-left: 68%;
+    padding-left: 62%;
   }
 
   #userexperience {
