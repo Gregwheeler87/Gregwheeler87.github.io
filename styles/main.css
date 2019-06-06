@@ -317,6 +317,18 @@ li {
     margin: 0;
   }
 
+  #userexperience {
+  font-size: 5.0rem;
+  }
+
+  #researcher {
+  font-size: 8.0rem;
+  }
+
+  #location {
+  font-size: 3.0rem;
+  }
+
   .hero {
     height: 500px;
   }
