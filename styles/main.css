@@ -141,8 +141,8 @@ nav {
 
 #userexperience {
 font-family: 'Roboto', sans-serif;
-font-weight: 100;
-font-size: 2.8rem;
+font-weight: 300;
+font-size: 1.9rem;
 margin-top: 0;
 margin-bottom: 0;
 }
@@ -318,7 +318,7 @@ li {
   }
 
   #userexperience {
-  font-size: 5.0rem;
+  font-size: 3.0rem;
   }
 
   #researcher {
@@ -326,7 +326,7 @@ li {
   }
 
   #location {
-  font-size: 3.0rem;
+  font-size: 2.0rem;
   }
 
   .hero {
@@ -364,7 +364,7 @@ li {
 
 
   #userexperience {
-  font-size: 6.0rem;
+  font-size: 4.0rem;
   }
 
   #researcher {
@@ -374,6 +374,13 @@ li {
   #location {
   font-size: 3.0rem;
   }
+
+  #hctext {
+    font-size: 2.6rem;
+  }
+
+
+
   #casestudybox {
     display: grid;
     grid-template-columns: 1fr 1fr;

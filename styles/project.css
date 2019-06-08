@@ -223,7 +223,8 @@ ul {
   font-family: 'Roboto', sans-serif;
   font-size: 2.4rem;
   justify-content: center;
-  padding-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 /*PROCESS*/
@@ -481,8 +482,8 @@ li {
 
   .sketchgrid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
+    /* grid-template-rows: 1fr 1fr; */
   }
 
   .sketches {
@@ -502,8 +503,8 @@ li {
 
   .wireframesgrid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
     margin-left: 10rem;
     margin-right: 10rem;
   }
@@ -515,8 +516,8 @@ li {
 
   .mockupsgrid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
   }
 
   .hfmockups {
@@ -649,8 +650,7 @@ li {
 
 .sketchgrid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .sketches {
@@ -670,8 +670,8 @@ li {
 
 .wireframesgrid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
   margin-left: 10rem;
   margin-right: 10rem;
 }
@@ -681,10 +681,15 @@ li {
   margin-right: 10rem;
 }
 
+.insidetext {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
 .mockupsgrid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
 }
 
 .hfmockups {
@@ -718,8 +723,8 @@ li {
 }
 
   p {
-    margin-left: 15rem;
-    margin-right: 15rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
   }
 
   .rolesshell {
@@ -733,8 +738,8 @@ li {
   }
 
   .conclusiontext {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
   }
 
   li {
