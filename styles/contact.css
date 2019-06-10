@@ -31,11 +31,21 @@ h3 {
 }
 
 h2 {
+  align-items: center;
   font-size: 3.2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+  margin-bottom: 0;
+
 }
 
 h5 {
+  align-items: center;
   font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
 }
 
 .container {
