@@ -108,19 +108,19 @@ nav {
   padding: 0;
 }
 
-#about {
+.navbarsettings {
   color: #EAEDEA;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   padding: 8px;
 }
 
-#project {
+/* #project {
   color: #EAEDEA;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   padding: 8px;
-}
+} */
 
 .hero {
   background-image: url("../Assets/Portfoliohero.JPG");
@@ -209,7 +209,13 @@ margin-bottom: 0;
 }
 
 .casestudy1 {
-  padding-bottom: 3%;
+  padding-bottom: 7%;
+  padding-top: 7%;
+}
+
+.casestudy2 {
+  padding-bottom: 7%;
+  padding-top: 7%;
 }
 
 
@@ -225,6 +231,10 @@ margin-bottom: 0;
   font-size: 1.8rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+}
+
+#shelfdescription {
+  margin-bottom: 7%;
 }
 
 .cs2shell {

@@ -155,14 +155,7 @@ nav {
   padding: 0;
 }
 
-#about {
-  color: #EAEDEA;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  padding: 8px;
-}
-
-#project {
+.navbarsettings {
   color: #EAEDEA;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -218,7 +211,7 @@ ul {
 
 
 .cslink {
-  color: #1B1D29;
+  color: #FFBF00;
   display: flex;
   font-family: 'Roboto', sans-serif;
   font-size: 2.4rem;
@@ -431,6 +424,19 @@ li {
   padding: 0;
   }
 
+  .roles {
+    text-align: left;
+  }
+
+  .rolesheader {
+    text-align: left;
+  }
+
+  h4 {
+    display: block;
+
+  }
+
   #logoimg {
     min-width: 15%;
     max-width: 8%;
@@ -601,6 +607,11 @@ li {
   padding-bottom: 1rem;
   }
 
+  h4 {
+    display: block;
+
+  }
+
   #casestudyintrotext {
     margin-left: 5rem;
     margin-right: 5rem;
@@ -732,8 +743,19 @@ li {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  .roles {
+    text-align: left;
+  }
+
+
+  .rolesheader {
+    text-align: left;
+  }
+
+
+
   .rolesdesktop {
-    margin-left: 10%;
+    margin-left: 20%;
     margin-right: 10%;
   }
 

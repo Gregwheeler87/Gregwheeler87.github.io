@@ -44,29 +44,24 @@ h5 {
   grid-template-columns: 1fr;
   grid-auto-rows: minmax(25px, auto);
   grid-template-areas:
-   "header"
-   "abouthero"
-   "paragraph1"
-   "paragraph2"
-   "paragraph3"
-   "footer"
+  "contact"
 }
 
-section {
+/* section {
 margin-top: 1rem;
 margin-left: 2rem;
 margin-right: 2rem;
 padding: 0;
-}
+} */
 
-img {
+/* img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5%;
   width: 80%;
 
-}
+} */
 
 /*SECTIONS*/
 
@@ -117,48 +112,9 @@ nav {
   padding: 8px;
 }
 
-.abouthero {
-  background-image: url("../Assets/Aboutimg.JPG");
-  background-color: #cccccc; /* Used if the image is unavailable */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  /* width: 100%: */
-  filter: grayscale(10);
-  grid-area: abouthero;
-  height: 365px; /* You must set a specified height */
-  padding: 0;
-  margin: 0;
-  -webkit-filter: grayscale(10);
+ul {
+  /* align-items: center; */
 }
-
-
-.paragraph1 {
-  display: flex;
-  grid-area: paragraph1;
-  justify-content: center;
-  line-height: 1.8;
-  letter-spacing: 30%;
-}
-
-
-
-.paragraph2 {
-  display: flex;
-  grid-area: paragraph2;
-  justify-content: center;
-  flex-direction: column;
-  line-height: 1.8;
-}
-
-
-.paragraph3 {
-  display: flex;
-  grid-area: paragraph3;
-  justify-content: center;
-  line-height: 1.8;
-}
-
 
 
 footer {
@@ -234,10 +190,6 @@ li {
   }
 
 
-  .abouthero{
-    height: 700px;
-  }
-
 
 
   li {
@@ -264,17 +216,6 @@ li {
     font-size: 12px;
   }
 
-
-
-
-  p {
-    margin-left: 15rem;
-    margin-right: 15rem;
-  }
-
-  .abouthero {
-    height: 1200px;
-  }
 
   li {
     padding: 2%;
