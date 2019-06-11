@@ -141,6 +141,7 @@ label {
 textarea {
   border: 1px solid #2CCFDC;
   border-radius: 2px;
+  line-height: 100px;
   width: 100%;
   height: 100%;
 
@@ -149,7 +150,8 @@ textarea {
 input {
  border: 1px solid #2CCFDC;
  border-radius: 2px;
-  width: 100%;
+ line-height: 20px;
+ width: 100%;
 
 }
 

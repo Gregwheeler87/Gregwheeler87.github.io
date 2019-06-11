@@ -35,9 +35,13 @@
            <li><a class= "navbarsettings" href="contact.html">Contact</a></li>
           </ul>
         </nav>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
       </header>
 
-  
+
       <!-- HERO SECTION-->
 
      <section class="hero">
@@ -99,5 +103,15 @@ I focus on building solid relationships to gather & analyze real data to create 
   		   	</ul>
       </footer>
     </div>
+    <script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
   </body>
 </html>
