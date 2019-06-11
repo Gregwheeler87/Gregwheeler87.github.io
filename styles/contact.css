@@ -121,13 +121,13 @@ nav {
   padding: 8px;
 }
 
-ul {
-  width: 100%;
-}
+
 .form {
   align-items: center;
   display: flex;
   flex-direction: column;
+  margin-top: 10%;
+  width: 100%;
 }
 
 label {
@@ -135,19 +135,27 @@ label {
   font-size: 1.4rem;
   font-weight: 300;
   padding-right: 5%;
+  letter-spacing: 10%;
 }
 
 textarea {
+  border: 1px solid #2CCFDC;
+  border-radius: 2px;
   width: 100%;
   height: 100%;
+
 }
 
 input {
+ border: 1px solid #2CCFDC;
+ border-radius: 2px;
   width: 100%;
+
 }
 
 input[type=submit] {
   font-family: 'Roboto', sans-serif;
+  background-color: #EAEDEA;;
   width: 100%;
 }
 
