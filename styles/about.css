@@ -96,18 +96,30 @@ img {
   margin: 0;
 }
 
-nav {
-  padding-right: 5%;
+
+
+
+.icon {
+  background:  #1B1D29;
+  color: white;
+  display: block;
+  margin-right: 3%;
+  right: 0;
+  top: 0;
 }
 
 
-
 #navbar {
-  display: flex;
+  background-color: #1B1D29;
+  display: none;
   font-size: 1.4rem;
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+#navbardesktop {
+  display: none;
 }
 
 .navbarsettings {
@@ -231,6 +243,24 @@ li {
     min-width: 15%;
     max-width: 8%;
     margin: 0;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  #navbardesktop {
+    background-color: #1B1D29;
+    display: flex;
+    font-size: 1.4rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 7%;
   }
 
 

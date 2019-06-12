@@ -96,12 +96,12 @@ margin-right: 5%;
 }
 
 section {
-margin-top: 1rem;
+/* margin-top: 1rem; */
 /* margin-left: 2rem;
 margin-right: 2rem; */
 margin-bottom: 1rem;
 padding: 0;
-padding-top: 1rem;
+/* padding-top: 1rem; */
 padding-bottom: 1rem;
 }
 
@@ -142,17 +142,27 @@ img {
   margin: 0;
 }
 
-nav {
-  padding-right: 5%;
+.icon {
+  background:  #1B1D29;
+  color: white;
+  display: block;
+  margin-right: 3%;
+  right: 0;
+  top: 0;
 }
 
 
 #navbar {
-  display: flex;
+  background-color: #1B1D29;
+  display: none;
   font-size: 1.4rem;
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+#navbardesktop {
+  display: none;
 }
 
 .navbarsettings {
@@ -443,6 +453,23 @@ li {
     margin: 0;
   }
 
+  .navbar {
+    display: none;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  #navbardesktop {
+    background-color: #1B1D29;
+    display: flex;
+    font-size: 1.4rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 7%;
+  }
 
   #casestudyintrotext {
     margin-left: 5rem;

@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="styles/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles/contact.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:300|Raleway:300,500,600,700|Roboto:100,300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- need links and stuff here. -->
     <title>Portfolio | Greg Wheeler</title>
@@ -26,17 +27,28 @@
         <div class="logo">
           <a href="/"><img id="logoimg" src="Assets/Logo.png" alt="Greg Wheeler Logo"></a>
         </div>
-        <nav>
-          <ul id= "navbar">
+        <div>
+          <ul id="navbardesktop">
            <li><a class= "navbarsettings" href="about.html">About</a></li>
            <li><a class= "navbarsettings" href="project.html">Work</a></li>
            <li><a class= "navbarsettings" href="https://drive.google.com/open?id=1KSEDijdLjuya3ozoLiviVSpW_bfyb0wE" target="_blank">Resume</a></li>
+           <li><a class= "navbarsettings" href="contact.html">Contact</a></li>
           </ul>
-        </nav>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fas fa-bars fa-2x"></i>
+        </a>
       </header>
 
       <!-- FORM -->
      <section class="contact">
+       <nav>
+         <ul id= "navbar">
+          <li><a class= "navbarsettings" href="about.html">About</a></li>
+          <li><a class= "navbarsettings" href="project.html">Work</a></li>
+          <li><a class= "navbarsettings" href="https://drive.google.com/open?id=1KSEDijdLjuya3ozoLiviVSpW_bfyb0wE" target="_blank">Resume</a></li>
+         </ul>
+       </nav>
        <h2> Let's work together!</h2>
        <h5>Contact me with the form below.</h5>
        <form action="https://formspree.io/schecter33.3@gmail.com" method="POST">
@@ -73,5 +85,15 @@
   		   	</ul>
       </footer>
     </div>
+    <script>
+function myFunction() {
+  var x = document.getElementById("navbar");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
   </body>
 </html>
