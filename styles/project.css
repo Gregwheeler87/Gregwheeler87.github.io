@@ -594,7 +594,7 @@ li {
   }
 
   .rolesdesktop {
-    margin-left: 10%;
+    margin-left: 15%;
     margin-right: 10%;
   }
 
@@ -651,8 +651,8 @@ li {
 .compgrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .evernote {
