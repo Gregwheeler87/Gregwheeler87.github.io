@@ -260,9 +260,11 @@ li {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    padding-right: 7%;
   }
 
+/* .navbardiv {
+  padding-right: 3%;
+} */
 
   .abouthero{
     height: 700px;

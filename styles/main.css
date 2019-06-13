@@ -355,9 +355,11 @@ li {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    padding-right: 7%;
   }
 
+/* .navbardiv {
+  padding-right: 3%;
+} */
 
 
   #userexperience {
@@ -382,6 +384,9 @@ li {
 
   }
 
+  li {
+    padding: 3%;
+  }
 
 }
 
@@ -422,7 +427,9 @@ li {
     font-size: 2.6rem;
   }
 
-
+  li {
+    padding: 3%;
+  }
 
   #casestudybox {
     display: grid;

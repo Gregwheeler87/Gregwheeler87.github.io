@@ -221,7 +221,7 @@ ul {
 
 
 .cslink {
-  color: #FFBF00;
+  color: #00A7E1;
   display: flex;
   font-family: 'Roboto', sans-serif;
   font-size: 2.4rem;
@@ -231,6 +231,10 @@ ul {
 }
 
 /*PROCESS*/
+
+.mobilepadding {
+  padding-top: 7%;
+}
 
 .process {
   grid-area: process;
@@ -439,13 +443,14 @@ li {
   }
 
   .rolesheader {
+    display: block;
     text-align: left;
   }
 
-  h4 {
+  /* h4 {
     display: block;
 
-  }
+  } */
 
   #logoimg {
     min-width: 15%;
@@ -468,9 +473,12 @@ li {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    padding-right: 7%;
+
   }
 
+/* .navbardiv {
+  padding-right: 3%;
+} */
   #casestudyintrotext {
     margin-left: 5rem;
     margin-right: 5rem;
@@ -609,7 +617,7 @@ li {
   }
 
   li {
-    padding: 2%;
+    padding: 3%;
   }
 
 }
@@ -634,10 +642,10 @@ li {
   padding-bottom: 1rem;
   }
 
-  h4 {
+  /* h4 {
     display: block;
 
-  }
+  } */
 
   #casestudyintrotext {
     margin-left: 5rem;
@@ -776,6 +784,7 @@ li {
 
 
   .rolesheader {
+    display: block;
     text-align: left;
   }
 
@@ -792,7 +801,7 @@ li {
   }
 
   li {
-    padding: 2%;
+    padding: 3%;
   }
 
 }
