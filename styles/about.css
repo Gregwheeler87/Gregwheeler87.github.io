@@ -204,7 +204,6 @@ footer {
 }
 
 li {
-  display: flex;
   flex: 1;
   padding: 5%;
 }
