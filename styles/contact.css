@@ -211,6 +211,11 @@ footer {
   color: #EAEDEA;
 }
 
+li {
+  display: flex;
+  flex: 1;
+  padding: 5%;
+}
 
 
 
@@ -274,9 +279,7 @@ footer {
     padding-left: 0;
   }
 
-    li {
-      padding: 5%;
-    }
+
 
 
 }
@@ -302,10 +305,6 @@ footer {
     padding-left: 0;
   }
 
-
-    li {
-      padding: 5%;
-    }
 
 
 }

@@ -403,7 +403,9 @@ footer {
 }
 
 li {
-  padding: 2%;
+  display: flex;
+  flex: 1;
+  padding: 5%;
 }
 
 
@@ -620,9 +622,6 @@ li {
   }
 
 
-    li {
-      padding: 5%;
-    }
 
 
 
@@ -660,9 +659,7 @@ li {
 
 
 
-    li {
-      padding: 5%;
-    }
+
 
 
 .compgrid {

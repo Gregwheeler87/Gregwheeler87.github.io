@@ -203,10 +203,14 @@ footer {
   color: #EAEDEA;
 }
 
+li {
+  display: flex;
+  flex: 1;
+  padding: 5%;
+}
 
-  li {
-    padding: 5%;
-  }
+
+
 
 
 
@@ -274,10 +278,6 @@ footer {
     height: 700px;
   }
 
-  li {
-    padding: 5%;
-  }
-
 
 
 
@@ -314,6 +314,7 @@ footer {
   .abouthero {
     height: 1200px;
   }
+
 
 
 }
