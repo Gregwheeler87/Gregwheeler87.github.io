@@ -122,6 +122,12 @@ img {
   display: none;
 }
 
+.navbarsettings {
+  color: #EAEDEA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+
+}
 
 
 .abouthero {

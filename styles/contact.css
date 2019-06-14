@@ -120,7 +120,12 @@ padding: 0;
   display: none;
 }
 
+.navbarsettings {
+  color: #EAEDEA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 
+}
 
 
 .form {
@@ -274,7 +279,7 @@ li {
     padding: 2%;
   }
 
-  ul {
+   {
     padding-left: 0;
   }
 
