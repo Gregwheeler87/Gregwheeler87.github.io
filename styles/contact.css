@@ -268,8 +268,10 @@ footer {
     list-style-type: none;
     margin: 0;
     padding: 2%;
-    
+  }
 
+  ul {
+    padding-left: 0;
   }
 
   li {
@@ -294,6 +296,10 @@ footer {
 
   html {
     font-size: 12px;
+  }
+
+  ul {
+    padding-left: 0;
   }
 
 

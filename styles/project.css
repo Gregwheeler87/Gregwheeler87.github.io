@@ -166,9 +166,6 @@ img {
 }
 
 
-ul {
-  padding-left: 0;
-}
 
 /*CASE STUDY INTRO*/
 
@@ -481,6 +478,9 @@ li {
 
   }
 
+  ul {
+    padding-left: 0;
+  }
 
   #casestudyintrotext {
     margin-left: 5rem;
@@ -805,5 +805,9 @@ li {
     margin-right: 20rem;
   }
 
+
+  ul {
+    padding-left: 0;
+  }
 
 }

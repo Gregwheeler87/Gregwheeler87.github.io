@@ -265,6 +265,9 @@ li {
 
   }
 
+  ul {
+    padding-left: 0;
+  }
 
 
   .abouthero{
@@ -298,7 +301,9 @@ li {
     font-size: 12px;
   }
 
-
+  ul {
+    padding-left: 0;
+  }
 
 
   p {

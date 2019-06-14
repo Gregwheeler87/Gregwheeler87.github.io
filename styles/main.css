@@ -358,6 +358,10 @@ li {
 
   }
 
+  ul {
+    padding-left: 0;
+  }
+
   li {
     padding: 2%;
   }
@@ -428,6 +432,9 @@ li {
     font-size: 2.6rem;
   }
 
+  ul {
+    padding-left: 0;
+  }
 
 
   #casestudybox {
