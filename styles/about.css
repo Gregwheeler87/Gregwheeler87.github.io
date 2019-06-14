@@ -118,7 +118,7 @@ img {
   padding: 0;
 }
 
-#navbardesktop {
+.navbardesktop {
   display: none;
 }
 
@@ -212,6 +212,7 @@ footer {
 li {
   flex: 1;
   padding: 5%;
+  width: 100%;
 }
 
 
@@ -264,13 +265,14 @@ li {
     display: none;
   }
 
-  #navbardesktop {
+  .navbardesktop {
     background-color: #1B1D29;
     display: flex;
     font-size: 1.4rem;
     list-style-type: none;
     margin: 0;
     padding: 2%;
+    width: 375px;
 
   }
 

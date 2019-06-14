@@ -161,7 +161,7 @@ img {
   padding: 0;
 }
 
-#navbardesktop {
+.navbardesktop {
   display: none;
 }
 
@@ -476,13 +476,14 @@ li {
     display: none;
   }
 
-  #navbardesktop {
+  .navbardesktop {
     background-color: #1B1D29;
     display: flex;
     font-size: 1.4rem;
     list-style-type: none;
     margin: 0;
     padding: 2%;
+  
 
   }
 

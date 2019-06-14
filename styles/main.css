@@ -117,7 +117,7 @@ img {
   padding: 0;
 }
 
-#navbardesktop {
+.navbardesktop {
   display: none;
 }
 
@@ -298,6 +298,11 @@ footer {
   padding: 2%;
 }
 
+#social {
+  width: 5%;
+  padding: 0;
+}
+
 .far.fa-envelope {
   color: #EAEDEA;
 }
@@ -313,6 +318,7 @@ footer {
 li {
   flex: 1;
   padding: 5%;
+  width: 100%;
 }
 
 
@@ -350,19 +356,21 @@ li {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 
+
   }
 
   .icon {
     display: none;
   }
 
-  #navbardesktop {
+  .navbardesktop {
     background-color: #1B1D29;
     display: flex;
     font-size: 1.4rem;
     list-style-type: none;
     margin: 0;
     padding: 2%;
+    width: 375px;
 
   }
 
