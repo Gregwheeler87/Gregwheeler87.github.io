@@ -362,9 +362,10 @@ li {
     padding-left: 0;
   }
 
-  li {
-    padding: 2%;
-  }
+
+    li {
+      padding: 5%;
+    }
 
 
 
@@ -390,6 +391,7 @@ li {
     padding-right: 5%;
 
   }
+
 
 
 
@@ -435,6 +437,11 @@ li {
   ul {
     padding-left: 0;
   }
+
+
+    li {
+      padding: 5%;
+    }
 
 
   #casestudybox {
