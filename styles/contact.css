@@ -120,12 +120,7 @@ padding: 0;
   display: none;
 }
 
-.navbarsettings {
-  color: #EAEDEA;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  padding: 8px;
-}
+
 
 
 .form {
@@ -201,7 +196,7 @@ footer {
   justify-content: center;
   list-style-type: none;
   margin: 1;
-  padding: 0;
+  padding: 2%;
 }
 
 .far.fa-envelope {
@@ -216,9 +211,7 @@ footer {
   color: #EAEDEA;
 }
 
-li {
-  padding: 2%;
-}
+
 
 
 
@@ -257,6 +250,13 @@ li {
     display: none;
   }
 
+  .navbarsettings {
+    color: #EAEDEA;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+  }
+
   .icon {
     display: none;
   }
@@ -267,13 +267,10 @@ li {
     font-size: 1.4rem;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 2%;
+    
+
   }
-
-/* .navbardiv {
-  padding-right: 3%;
-} */
-
 
   li {
     padding: 2%;
@@ -300,7 +297,4 @@ li {
   }
 
 
-  li {
-    padding: 2%;
-  }
 }
