@@ -393,7 +393,8 @@ footer {
   display: flex;
   justify-content: center;
   list-style-type: none;
-  margin: 1;
+  margin-left: 25%;
+  margin-right: 25%;
   padding: 2%;
 }
 
@@ -483,7 +484,7 @@ li {
     list-style-type: none;
     margin: 0;
     padding: 2%;
-  
+
 
   }
 
