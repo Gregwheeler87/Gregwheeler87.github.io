@@ -486,8 +486,6 @@ width: 100%;
     margin: 0;
     padding: 2%;
     width: 375px;
-
-
   }
 
   ul {
@@ -632,7 +630,11 @@ width: 100%;
   }
 
 
-
+  li {
+    flex: 1;
+    padding: 5%;
+  width: 100%;
+  }
 
 
 }
@@ -819,6 +821,16 @@ width: 100%;
 
   ul {
     padding-left: 0;
+  }
+
+  .navbardesktop {
+    background-color: #1B1D29;
+    display: flex;
+    font-size: 1.4rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 2%;
+    width: 375px;
   }
 
 }
