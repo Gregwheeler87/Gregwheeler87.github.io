@@ -199,6 +199,10 @@ img {
   text-align: center;
 }
 
+.mobileroles {
+padding: 2%;
+}
+
 /*PROBLEM*/
 
 .problem {
@@ -250,7 +254,7 @@ justify-content: center;
 }
 
 .swatitems {
-  padding: 5%;
+  padding: 2%;
 }
 
 #calist {
@@ -321,6 +325,10 @@ justify-content: center;
   width: 100%;
 }
 
+.points {
+  padding: 2%;
+}
+
 .user-stories-flows {
   background-color: #F2F2F2;
   margin-left: 0;
@@ -328,10 +336,22 @@ justify-content: center;
   /* width: 100%; */
 }
 
+.sketchgrid {
+  padding-left: 0;
+}
+
 .lfwireframes {
   background-color: #F2F2F2;
   margin-left: 0;
   margin-right: 0;
+}
+
+.wireframesgrid {
+  padding-left: 0;
+}
+
+.mockupsgrid {
+  padding-left: 0;
 }
 
 .prototype {
@@ -534,6 +554,14 @@ width: 100%;
     margin-right: 0;
   }
 
+  .points {
+    padding: 2%;
+  }
+
+  .bulletpoints {
+    padding: 3% 15% 3% 15%;
+  }
+
   .sketchgrid {
     display: grid;
     grid-template-columns: 1fr 1fr ;
@@ -612,11 +640,13 @@ width: 100%;
   .rolesshell {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
   }
 
   .rolesdesktop {
-    margin-left: 15%;
-    margin-right: 10%;
+    justify-content: center;
+    margin-left: 20%;
+
   }
 
   p {
@@ -670,7 +700,17 @@ width: 100%;
   }
 
 
+  .rolesdesktop {
+    justify-content: center;
+    margin-left: 20%;
 
+  }
+
+  .rolesshell {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+  }
 
 
 
@@ -694,6 +734,14 @@ width: 100%;
 .dropbox {
   margin-left: 0;
   margin-right: 0;
+}
+
+.points {
+  padding: 2%;
+}
+
+.bulletpoints {
+  padding: 3% 15% 3% 15%;
 }
 
 .personagrid {
