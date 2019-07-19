@@ -168,10 +168,11 @@ padding-left: 5%;
 
 #location {
 font-weight: 100;
-font-size: 1.4rem;
+font-size: 2.0rem;
 margin-top: 0;
 margin-bottom: 0;
 padding-left: 5%;
+padding-top: 3%;
 }
 
 .herocontent{
@@ -376,8 +377,15 @@ li {
   }
 
 
+.cs1shell {
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
-
+.cs2shell {
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 
   #userexperience {
@@ -386,6 +394,7 @@ li {
 
   #researcher {
   font-size: 8.0rem;
+  padding-right: 20%;
   }
 
   #location {
@@ -427,6 +436,16 @@ li {
 
   }
 
+  .cs1shell {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .cs2shell {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
 
   #userexperience {
   font-size: 4.0rem;
@@ -434,6 +453,7 @@ li {
 
   #researcher {
   font-size: 9.0rem;
+  padding-right: 30%;
   }
 
   #location {
@@ -442,6 +462,8 @@ li {
 
   #hctext {
     font-size: 2.6rem;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   ul {
