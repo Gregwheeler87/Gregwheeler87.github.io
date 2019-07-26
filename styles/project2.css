@@ -608,8 +608,8 @@ width: 100%;
   }
 
   #wireframetext {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
   }
 
   .mockupsgrid {
@@ -619,8 +619,8 @@ width: 100%;
   }
 
   .hfmockups {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
   }
 
   .signupforaccountgrid {
@@ -805,8 +805,8 @@ width: 100%;
 }
 
 #wireframetext {
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
 }
 
 .insidetext {
@@ -821,8 +821,8 @@ width: 100%;
 }
 
 .hfmockups {
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
 }
 
 .signupforaccountgrid {
