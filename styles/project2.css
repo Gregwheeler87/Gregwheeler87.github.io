@@ -184,7 +184,7 @@ img {
 /*Roles, deliverables, tools*/
 
 .rolesshell {
-  background-color: #F2F2F2;
+  /* background-color: #F2F2F2; */
   grid-area: roles;
   margin-left: 0;
   margin-right: 0;

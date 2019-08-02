@@ -50,6 +50,7 @@ h5 {
    "csheadline"
    "cs1shell"
    "cs2shell"
+   "cs3shell"
    "footer"
 }
 
@@ -269,6 +270,25 @@ padding-top: 3%;
 
 }
 
+.cs3shell {
+  background-color: #1B1D29;
+  border-style: solid;
+  border-color: #2CCFDC;
+  color: #EAEDEA;
+  grid-area: cs2shell;
+  grid-column: 1;
+  grid-row: 2;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+
+}
+
 #drip {
   font-size: 3.2rem;
   font-family: 'Roboto', sans-serif;
@@ -356,6 +376,8 @@ li {
 
 
   }
+
+
 
   .icon {
     display: none;
@@ -475,5 +497,6 @@ li {
   #casestudybox {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  
   }
 }

@@ -110,6 +110,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5%;
+  margin-top: 5%;
   width: 80%;
 
 }
@@ -183,7 +184,7 @@ img {
 /*Roles, deliverables, tools*/
 
 .rolesshell {
-  /* background-color: #F2F2F2; */
+  background-color: #F2F2F2;
   grid-area: roles;
   margin-left: 0;
   margin-right: 0;
@@ -223,13 +224,13 @@ padding: 2%;
 
 
 .cslink {
-  color: #00A7E1;
+  color: #623CEA;
   display: flex;
   font-family: 'Roboto', sans-serif;
   font-size: 2.4rem;
   justify-content: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 /*PROCESS*/
@@ -251,6 +252,10 @@ padding: 2%;
 .fab.fa-evernote.fa-4x {
 display: flex;
 justify-content: center;
+}
+
+#compphoto {
+  padding: 10%;
 }
 
 .swatitems {
@@ -309,6 +314,17 @@ justify-content: center;
   margin-left: 0;
   margin-right: 0;
   width: 100%;
+}
+
+#usertestimage {
+  padding: 5%;
+}
+#ufphoto {
+  padding: 2%;
+}
+
+#wfimage {
+  padding: 2%;
 }
 
 .bulletpoints {
@@ -575,7 +591,7 @@ width: 100%;
 
   .userflowsgrid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   .lfwireframes {
@@ -585,36 +601,36 @@ width: 100%;
 
   .wireframesgrid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     /* grid-template-rows: 1fr 1fr; */
     margin-left: 10rem;
     margin-right: 10rem;
   }
 
   #wireframetext {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
   }
 
   .mockupsgrid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     /* grid-template-rows: 1fr 1fr; */
   }
 
   .hfmockups {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
   }
 
   .signupforaccountgrid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   .addaphotogrid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   .albumgrid {
@@ -772,7 +788,7 @@ width: 100%;
 
 .userflowsgrid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 
 .lfwireframes {
@@ -782,15 +798,15 @@ width: 100%;
 
 .wireframesgrid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   /* grid-template-rows: 1fr 1fr; */
   margin-left: 10rem;
   margin-right: 10rem;
 }
 
 #wireframetext {
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
 }
 
 .insidetext {
@@ -800,23 +816,23 @@ width: 100%;
 
 .mockupsgrid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   /* grid-template-rows: 1fr 1fr; */
 }
 
 .hfmockups {
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
 }
 
 .signupforaccountgrid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 
 .addaphotogrid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 
 .albumgrid {
